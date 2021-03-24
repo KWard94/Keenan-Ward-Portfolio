@@ -2,8 +2,37 @@
   text-align: center;
 }
 
+.header {
+  background-color: cadetblue;
+  height: 10rem;
+}
+
 .landing {
   background-color: aquamarine;
   width: 100%;
-  height: 100%;
+  height: 49.5rem;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.landing-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation {
+  background-color: chartreuse;
+  display: flex;
+  /* justify-content: space-evenly; */
+  justify-content: flex-end;
+  align-self: flex-end;
+}
+
+#link {
+  /* color: red; */
+  text-decoration: none;
+  padding: 0.5rem;
 }
