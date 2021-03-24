@@ -4,9 +4,12 @@ import { Link } from "react-router-dom";
 export default function Navigation() {
   return (
     <div className="navigation">
-      <h1>NAVIGATION LINKS HERE</h1>
-      <Link to="/home">Home</Link>
-      <Link to="/about">About Me</Link>
+      <Link to="/home" id="link">
+        Home
+      </Link>
+      <Link to="/about" id="link">
+        About Me
+      </Link>
     </div>
   );
 }

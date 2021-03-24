@@ -7,7 +7,10 @@ export default function Home() {
   return (
     <div className="homepage">
       <Header />
-      <h1>HOMEPAGE HERE</h1>
+      <h1>
+        Thank you for taking the time to visit my portfolio and to learn about
+        me!
+      </h1>
       <Switch>
         <Route exact path="/about" component={About} />
       </Switch>
