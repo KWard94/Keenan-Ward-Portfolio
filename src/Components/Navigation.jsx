@@ -8,10 +8,13 @@ export default function Navigation() {
         Home
       </Link>
       <Link to="/about" id="link">
-        About Me
+        About
+      </Link>
+      <Link to="/resume" id="link">
+        Resume
       </Link>
       <Link to="/contact" id="link">
-        Contact Me
+        Contact
       </Link>
     </div>
   );

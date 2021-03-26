@@ -15,14 +15,16 @@ export default function Contact() {
           work. Please contact me if you have any professional needs for my
           skills in software development!
         </p>
-        <h5 id="contact-tagline">I look forward to working with you!</h5>
         <p>
           I am based in Salt Lake City, Utah. I am also available for remote
           work!
         </p>
-        <p>Email me: pcward.k@gmail.com</p>
+        <p>
+          Email me: <strong>pcward.k@gmail.com</strong>
+        </p>
+
         <div className="contact-links">
-          <h6>
+          <h6 id="social-link">
             Visit my Github{" "}
             <a
               href="https://github.com/KWard94"
@@ -32,7 +34,7 @@ export default function Contact() {
               <img src={github_logo} alt="Github Logo" id="link-img" />
             </a>
           </h6>
-          <h6>
+          <h6 id="social-link">
             Visit my LinkedIn{" "}
             <a
               href="https://www.linkedin.com/in/keenan-k-ward/"
@@ -43,6 +45,7 @@ export default function Contact() {
             </a>
           </h6>
         </div>
+        <h5 id="contact-tagline">I look forward to working with you!</h5>
       </div>
     </div>
   );
