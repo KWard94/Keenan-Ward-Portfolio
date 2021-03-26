@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  /* background-color: royalblue; */
 }
 
 /* ****** Below this comment is the landing page css****** */
@@ -10,7 +9,7 @@
   flex-direction: column;
   height: 47rem;
   padding-bottom: 4rem;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .landing-img {
@@ -19,9 +18,6 @@
   background-repeat: no-repeat;
   width: 100%;
   height: 49rem;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
 }
 
 .landing-intro {
@@ -30,6 +26,8 @@
   justify-content: center;
   align-items: center;
   background-color: rgba(226, 226, 226, 0.5);
+  margin: 1rem;
+  margin-top: 3rem;
 }
 
 #intro-link {
@@ -41,7 +39,7 @@
 }
 
 #name {
-  font-size: 55px;
+  font-size: 50px;
 }
 /* ****** Above this comment is the landing page css****** */
 
@@ -62,7 +60,6 @@
   background-color: chartreuse;
   display: flex;
   justify-content: space-evenly;
-  /* justify-content: flex-end; */
   align-self: flex-end;
   position: absolute;
   top: 12rem;
@@ -105,8 +102,12 @@
 
 .about {
   background-color: burlywood;
-  height: 50rem;
+  height: 58rem;
   padding-top: 15rem;
+}
+
+.about-text {
+  padding: 2rem;
 }
 /* ****** Above this comment in the homepage css ****** */
 
@@ -125,6 +126,12 @@
   padding: 1.2rem;
 }
 
+.contact-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 #contact-title {
   padding-bottom: 3rem;
 }
@@ -134,8 +141,27 @@
   font-weight: 300;
 }
 
-.contact-links {
+#link-img {
+  width: 2rem;
+  padding: 0.5rem;
+}
+
+#social-link {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+
+/* ****** Above this comment in the contact css ****** */
+
+/* ****** Below this comment in the Resume css ****** */
+
+.resume {
+  padding-top: 15rem;
+  height: 36rem;
+  background-color: cornflowerblue;
+}
+
+#resume-img {
+  width: 20rem;
 }
