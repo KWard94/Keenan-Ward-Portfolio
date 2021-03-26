@@ -2,6 +2,7 @@ import React from "react";
 import { Route, Switch } from "react-router";
 import Header from "./Header";
 import About from "./About";
+import Contact from "./Contact";
 
 export default function Home() {
   return (
@@ -20,9 +21,6 @@ export default function Home() {
           Front-End/UI library; React.js
         </p>
       </div>
-      <Switch>
-        <Route exact path="/about" component={About} />
-      </Switch>
     </div>
   );
 }

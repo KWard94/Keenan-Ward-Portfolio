@@ -45,8 +45,10 @@
 }
 /* ****** Above this comment is the landing page css****** */
 
+/* ****** Below this comment in the header and nav css ****** */
 .header {
   background-color: cadetblue;
+  width: 100%;
   height: 15rem;
   display: flex;
   flex-direction: column;
@@ -59,12 +61,12 @@
 .navigation {
   background-color: chartreuse;
   display: flex;
-  /* justify-content: space-evenly; */
-  justify-content: flex-end;
+  justify-content: space-evenly;
+  /* justify-content: flex-end; */
   align-self: flex-end;
   position: absolute;
   top: 12rem;
-  width: 50%;
+  width: 100%;
 }
 
 #link {
@@ -72,6 +74,10 @@
   text-decoration: none;
   padding: 0.5rem;
 }
+
+/* ****** Above this comment in the header and nav css ****** */
+
+/* ****** Below this comment in the homepage css ****** */
 
 .homepage {
   background-color: tan;
@@ -91,4 +97,45 @@
 #site-info {
   font-style: italic;
   font-size: 15px;
+}
+
+/* ****** Above this comment in the homepage css ****** */
+
+/* ****** Below this comment in the about css ****** */
+
+.about {
+  background-color: burlywood;
+  height: 50rem;
+  padding-top: 15rem;
+}
+/* ****** Above this comment in the homepage css ****** */
+
+/* ****** Below this comment in the contact css ****** */
+
+.contact {
+  background-color: chocolate;
+  padding-top: 15rem;
+  height: 36rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-info {
+  padding: 1.2rem;
+}
+
+#contact-title {
+  padding-bottom: 3rem;
+}
+
+#contact-tagline {
+  font-style: italic;
+  font-weight: 300;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
