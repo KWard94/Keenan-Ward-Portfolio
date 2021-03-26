@@ -10,6 +10,9 @@ export default function Navigation() {
       <Link to="/about" id="link">
         About Me
       </Link>
+      <Link to="/contact" id="link">
+        Contact Me
+      </Link>
     </div>
   );
 }

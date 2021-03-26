@@ -10,7 +10,7 @@ export default function Landing() {
         <h2>~</h2>
         <h1>Full Stack Software Engineer</h1>
         <Link to="/home" id="intro-link">
-          Enter Here
+          Enter
         </Link>
       </div>
     </div>
