@@ -15,6 +15,8 @@
 
 .landing-img {
   background-image: url(./images/utah\ mountains\ and\ city.jpg);
+  /* background-image: url(./images/GitHub-Mark-120px-plus.png); */
+
   background-size: 450px;
   background-repeat: no-repeat;
   width: 100%;
@@ -125,6 +127,12 @@
   padding: 1.2rem;
 }
 
+.contact-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 #contact-title {
   padding-bottom: 3rem;
 }
@@ -134,8 +142,6 @@
   font-weight: 300;
 }
 
-.contact-links {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+#link-img {
+  width: 2rem;
 }
