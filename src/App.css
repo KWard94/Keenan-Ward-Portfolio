@@ -78,7 +78,7 @@
 
 .homepage {
   background-color: tan;
-  height: 51rem;
+  height: 52.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -86,8 +86,8 @@
 }
 
 .home-text {
-  padding: 1rem;
-  padding-top: 10rem;
+  padding: 2rem;
+  padding-top: 15rem;
   font-size: 21px;
 }
 
@@ -164,4 +164,11 @@
 
 #resume-img {
   width: 20rem;
+}
+/* ****** Above this comment in the Resume css ****** */
+
+/* ****** Below this comment in the Projects css ****** */
+
+.projects {
+  padding-top: 15rem;
 }
