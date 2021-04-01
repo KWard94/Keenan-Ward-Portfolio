@@ -10,7 +10,7 @@ export default function Projects() {
   return (
     <div className="projects">
       <Header />
-      <h1>Professional Projects:</h1>
+      <h1 id="project-header">Professional Projects:</h1>
       <Card className="project-card" border="light" bg="dark" text="light">
         <Card.Img
           variant="top"
