@@ -7,7 +7,7 @@ export default function About() {
     <div className="about">
       <Header />
       <div className="about-text">
-        <h3>I Am:</h3>
+        <h1>I Am:</h1>
         <p>
           A determined and driven full-stack software engineer based in Salt
           Lake City, UT. I strive to find efficient and effective solutions to
@@ -18,7 +18,7 @@ export default function About() {
           programming to develop a product that is accessible and practical for
           as many users as possible.
         </p>
-        <h4>About Me:</h4>
+        <h1>About Me:</h1>
         <p>
           I have recently joined the field of software development and I enjoy
           every step of the process. Writing functional and elegent solutions to
@@ -29,7 +29,7 @@ export default function About() {
           that I approach a difficult task. I look forward to helping you
           realize your software visions. ​{" "}
         </p>
-        <h4>My Skills:</h4>
+        <h1>My Skills:</h1>
         <p>
           Skills: Full Stack development, JavaScript, React.js, Node.js, Python,
           SQL, HTML, CSS, Git, MongoDB, Mongoose, Express, Handlebars,
