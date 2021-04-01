@@ -17,7 +17,9 @@ export default function Projects() {
           alt="Gift Suggestion App Homepage"
           src={gifter}
         />
-        <Card.Title>Gifter - The Gift Suggestion App</Card.Title>
+        <Card.Title id="card-title">
+          Gifter - The Gift Suggestion App
+        </Card.Title>
         <Card.Body>
           This Full Stack app was created as a way to suggest gifts for someone
           in your life. It was programmed in Javascript using React for the
@@ -56,7 +58,9 @@ export default function Projects() {
           alt="Stock App Homepage"
           src={publicInformant}
         />
-        <Card.Title>The Public Informant - A Stock Information App</Card.Title>
+        <Card.Title id="card-title">
+          The Public Informant - A Stock Information App
+        </Card.Title>
         <Card.Body>
           This app was created as a way to view succinct stock information from
           companies who are publicly traded on the New York Stock Exchange. It
@@ -80,7 +84,7 @@ export default function Projects() {
 
       <Card className="project-card" border="light" bg="dark" text="light">
         <Card.Img variant="top" alt="Stock App Homepage" src={trivia} />
-        <Card.Title>Javascript Trivia Game</Card.Title>
+        <Card.Title id="card-title">Javascript Trivia Game</Card.Title>
         <Card.Body>
           This app was created as a Trivia game for Holiday movies. It is a fun
           and simple web app that includes an incrementing and decrementing

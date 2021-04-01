@@ -6,7 +6,7 @@ export default function Resume() {
   return (
     <div className="resume">
       <Header />
-      <h1>Please Find my Professional Resume Below:</h1>
+      <h1 id="resume-intro">Please Find my Professional Resume Below:</h1>
       <img src={resume} alt="My Professional Resume" id="resume-img" />
     </div>
   );
