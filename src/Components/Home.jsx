@@ -10,9 +10,10 @@ export default function Home() {
       <Header />
       <div className="home-text">
         <h1 id="home-txt">
-          Welcome to my portfolio! Thank you for taking the time to visit.
+          Thank you for taking the time to visit my portfolio!
         </h1>
         <p id="home-txt">
+          <br />
           This website hosts a breif description of who I am as a person and as
           a developer. I welcome the opportunity to share some of myself with
           you! Please contact me if you have any questions, or if I can help

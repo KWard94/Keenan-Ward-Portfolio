@@ -4,10 +4,12 @@
   --text: #e7ecef;
   --neutral: #495867;
   --accent: #f79256;
+  --main-text: "Courier New", Courier, monospace;
 }
 
 .App {
   text-align: center;
+  font-family: var(--main-text);
 }
 
 /* ****** Below this comment is the landing page css****** */
@@ -39,6 +41,7 @@
   margin-top: 3rem;
   color: var(--text);
   padding: 0.5rem;
+  border: var(--text) solid 2px;
 }
 
 #intro-link {
@@ -79,6 +82,13 @@
   align-items: center;
   position: absolute;
   top: 0;
+  font-size: 15px;
+}
+.header-name {
+  font-size: 30px;
+}
+#my-name {
+  font-size: 45px;
 }
 
 .navigation {
@@ -104,7 +114,7 @@
 .homepage {
   background-color: var(--neutral);
   color: var(--text);
-  height: 52.5rem;
+  height: 70rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -113,7 +123,7 @@
 
 .home-text {
   padding: 2rem;
-  padding-top: 15rem;
+  padding-top: 18rem;
   font-size: 21px;
 }
 
@@ -129,8 +139,8 @@
 .about {
   background-color: var(--neutral);
   color: var(--text);
-  height: 85rem;
-  padding-top: 15rem;
+  height: 105rem;
+  padding-top: 17rem;
 }
 
 .about-text {
@@ -144,7 +154,7 @@
   background-color: var(--neutral);
   color: var(--text);
   padding-top: 15rem;
-  height: 52rem;
+  height: 55rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -199,10 +209,10 @@
 /* ****** Below this comment in the Projects css ****** */
 
 .projects {
-  padding-top: 15rem;
+  padding-top: 17rem;
   background-color: var(--neutral);
   color: var(--text);
-  height: 135rem;
+  height: 150rem;
 }
 
 .project-card {
@@ -222,6 +232,10 @@
   height: 1.5rem;
   display: flex;
   align-items: center;
+}
+
+#card-title {
+  padding-top: 1rem;
 }
 
 @media only screen and (min-width: 600px) {
@@ -246,7 +260,7 @@
     height: 17rem;
   }
   .header-name {
-    font-size: 40px;
+    font-size: 35px;
     /* display: flex; */
     /* flex-direction: row; */
   }
@@ -256,8 +270,9 @@
   }
 
   .homepage {
-    height: 64rem;
+    height: 73rem;
     padding: 3rem;
+    padding-top: 5rem;
   }
   #home-txt {
     font-size: 35px;
@@ -268,12 +283,12 @@
   }
   .about {
     font-size: 30px;
-    height: 113.5rem;
+    height: 145rem;
     padding-top: 17rem;
   }
   .projects {
     padding-top: 18rem;
-    height: 223rem;
+    height: 268rem;
   }
   .project-card {
     font-size: 35px;
