@@ -6,13 +6,13 @@
 
 ##### Future features and implementations:
 
-[] Add animations to the "enter" link
+- [ ] Add animations to the "enter" link
 
-[] Add a Rock, Paper, Scissors game on the homepage
+- [ ] Add a Rock, Paper, Scissors game on the homepage
 
-[] Create interesting scroll features for the projects
+- [ ] Create interesting scroll features for the projects
 
-[] Add the PDF functionality for the Resume
+- [ ] Add the PDF functionality for the Resume
 
 #### Credits and Attributions:
 
