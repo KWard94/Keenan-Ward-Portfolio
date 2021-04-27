@@ -6,6 +6,7 @@ import Home from "./Components/Home";
 import Landing from "./Components/Landing.jsx";
 import Resume from "./Components/Resume";
 import Projects from "./Components/Projects.jsx";
+import ResumePDF from "./Components/ResumePDF.jsx";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/resume" component={Resume} />
         <Route exact path="/projects" component={Projects} />
+        <Route exact path="/pdf" component={ResumePDF} />
       </Switch>
     </div>
   );
