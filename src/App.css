@@ -613,3 +613,52 @@
     height: 60rem;
   }
 }
+@media only screen and (max-width: 280px) {
+  .home-text {
+    width: 17.5rem;
+  }
+  .homepage {
+    width: 17.5rem;
+    height: 90rem;
+  }
+  .about {
+    height: 151rem;
+    width: 17.5rem;
+  }
+  .header {
+    width: 17.5rem;
+  }
+  #link {
+    font-size: 11px;
+  }
+  .navigation {
+    padding-top: 1rem;
+    padding-left: 3rem;
+  }
+  #my-name {
+    font-size: 40px;
+  }
+  .header-name {
+    font-size: 25px;
+  }
+  .projects {
+    height: 185rem;
+  }
+  #project-header {
+    font-size: 30px;
+  }
+  .resume {
+    height: 45rem;
+  }
+  #resume-img {
+    padding: 1rem;
+    width: 17rem;
+  }
+  #resume-intro {
+    font-size: 25px;
+    padding-top: 1rem;
+  }
+  .contact {
+    height: 70rem;
+  }
+}
