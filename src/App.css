@@ -17,7 +17,7 @@
   background-color: var(--neutral);
   display: flex;
   flex-direction: column;
-  height: 51rem;
+  height: 52rem;
   padding-bottom: 4rem;
   font-size: 18px;
 }
@@ -562,5 +562,54 @@
     font-size: 35px;
     font-weight: 300;
     padding-top: 4rem;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .projects {
+    height: 155rem;
+  }
+  .about {
+    height: 115rem;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .homepage {
+    height: 80rem;
+    width: 320px;
+  }
+  .home-text {
+    /* width: 25rem; */
+  }
+  .header {
+    width: 320px;
+  }
+  .header-name {
+    font-size: 25px;
+  }
+  .navigation {
+    padding: 5px;
+    font-size: 13px;
+    width: 320px;
+  }
+  #link {
+    padding: 0.4rem;
+  }
+  .projects {
+    width: 21rem;
+    height: 190rem;
+    margin: 0 auto;
+  }
+  .about {
+    height: 130rem;
+  }
+  .projects {
+    width: 100%;
+    height: 170rem;
+  }
+  #resume-img {
+    padding: 0.7rem;
+  }
+  .contact {
+    height: 60rem;
   }
 }
