@@ -690,4 +690,28 @@
   .contact {
     height: 100rem;
   }
+
+  @media only screen and (min-width: 1715px) {
+    .projects {
+      height: 350rem;
+    }
+    .resume {
+      height: 80rem;
+    }
+  }
+
+  @media only screen and (min-width: 1715px) {
+    .projects {
+      height: 370rem;
+    }
+    .resume {
+      height: 90rem;
+    }
+  }
+
+  @media only screen and (min-width: 1000px) {
+    .resume {
+      height: 100rem;
+    }
+  }
 }
